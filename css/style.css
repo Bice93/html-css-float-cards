@@ -13,7 +13,7 @@
 .conteiner{
     width: 1000px;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .title{
@@ -30,28 +30,29 @@ h1{
 
 h3{
     font-family: 'Fredoka', sans-serif;
+    margin-bottom: 4px;
 }
 
 p{
     font-family: 'Fredoka', sans-serif;
+    font-weight: normal;
 }
 
 .information > p{
-    font-weight: lighter;
+    font-weight:normal;
     font-size: 12px;
 }
 
 .conteiner-cards{
     width: 1000px;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .cards{
     width: calc(100% / 3 - 20px);
     background-color: black;
-    border: 1px solid black;
-    box-shadow: 2px 2px grey;
+    box-shadow: 10px 10px 20px rgb(104, 103, 103);
     float:left;
     margin: 20px 10px;
 }
