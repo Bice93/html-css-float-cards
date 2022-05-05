@@ -38,6 +38,7 @@ p{
 
 .information > p{
     font-weight: lighter;
+    font-size: 12px;
 }
 
 .conteiner-cards{
@@ -47,9 +48,10 @@ p{
 }
 
 .cards{
-    width: 300px;
+    width: calc(100% / 3 - 20px);
     background-color: black;
     border: 1px solid black;
+    box-shadow: 2px 2px grey;
     float:left;
     margin: 20px 10px;
 }
@@ -70,5 +72,9 @@ p{
     font-size: 15px;
     padding: 7px;
     color: white;
-    padding-left: 10px;
+    padding-left: 15px;
+}
+
+a{
+    color: rgb(125, 190, 247);
 }
